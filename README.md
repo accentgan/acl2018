@@ -10,7 +10,7 @@ In this paper, we propose the generation of accented speech using generative adv
 
 This model trains on speech samples at various frequencies and quality and learns to generate new samples from noise. The training disentangles content from accent, and allows us to generate similar content across accents. We can also transfer content between accents, and generate new samples from noise with the required accent.
 
-**All the project is developed with TensorFlow**. There are two repositories that were good references on how GANs for speech are defined and deployed:
+**All the project is developed with TensorFlow**. There are three repositories that were good references on how GANs for speech are defined and deployed and we used them to write the code for our models:
 
 * [improved-gan](https://github.com/openai/improved-gan): implementing improvements to train GANs in a more stable way
 * [DCGAN-tensorflow](https://github.com/carpedm20/DCGAN-tensorflow): implementation of the DCGAN in tensorflow
@@ -51,6 +51,7 @@ By default this will take all the available GPUs in your system, if any. Otherwi
 ### Reference
 
 If the code of this repository was useful for your research, please cite this [repository](https://www.openreview.net/forum?id=rJ6iJmWCW&noteId=rJ6iJmWCW)
+
 The code for this was based on code presented by [SEGAN](https://github.com/santi-pdp/segan)
 ### Contact
 
