@@ -47,29 +47,10 @@ By default this will take all the available GPUs in your system, if any. Otherwi
 
 **NOTE:** If you want to specify a subset of GPUs to work on, you can do so with the `CUDA_VISIBLE_DEVICES="0, 1, <etc>"` flag in the python execution within the training script. In the case of having two GPUs they'll be identified as 0 and 1, so we could just take the first GPU with: `CUDA_VISIBLE_DEVICES="0"`.
 
-### Loading model and prediction
-
-First, the trained weights will have to be downloaded from [here](http://veu.talp.cat/segan/release_weights/segan_v1.1.tar.gz) and uncompressed.
-
-Then the `main.py` script has the option to process a wav file through the G network (inference mode), where the user MUST specify the trained weights file and the configuration of the trained network. In the case of the v1 SEGAN presented in the paper, the options would be:
-
-```
-CUDA_VISIBLE_DEVICES="" python main.py --init_noise_std 0. --save_path segan_v1.1 \
-                                       --batch_size 100 --g_nl prelu --weights SEGAN_full \
-                                       --test_wav <wav_filename> --clean_save_path <clean_save_dirpath>
-```
-
-
-### Authors
-
-* **Prannay Khosla** (IIT Kanpur)
-* **Preethi Jyothi** (IIT Bombay)
-* **Vinay P. Namboodiri** (IIT Kanpur)
-* **Mukundhan Srinivasan** (NVIDIA)
 
 ### Reference
 
-If the code of this repository was useful for your research, please cite this repository:
+If the code of this repository was useful for your research, please cite this [repository]https://www.openreview.net/forum?id=rJ6iJmWCW&noteId=rJ6iJmWCW)
 The code for this was based on code presented by [SEGAN](https://github.com/santi-pdp/segan)
 ### Contact
 
