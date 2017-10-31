@@ -1,0 +1,1 @@
+Folder for relevant configurations of models and their paths across various systems.
