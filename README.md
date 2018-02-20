@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This is the repository of the AccentGAN project. The paper submitted to ICLR2017 can be found [here](https://www.openreview.net/forum?id=rJ6iJmWCW&noteId=rJ6iJmWCW) and test samples will be made available soon.
+This is the repository of the AccentGAN project. 
 
 In this paper, we propose the generation of accented speech using generative adversarial networks. Through this work we make two main contributions a) The ability to condition latent representations while generating realistic speech samples b) The ability to efficiently generate long speech samples by using a novel latent variable transformation module that is trained using policy gradients. Previous methods are limited in being able to generate only relatively short samples or are not very efficient at generating long samples. The generated speech samples are validated through a number of various evaluation measures viz, a WGAN critic loss and through subjective scores on user evaluations against competitive speech synthesis baselines and detailed ablation analysis of the proposed model. The evaluations demonstrate that the model generates realistic long speech samples conditioned on accent efficiently.
 
