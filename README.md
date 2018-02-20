@@ -50,7 +50,7 @@ By default this will take all the available GPUs in your system, if any. Otherwi
 
 ### Reference
 
-If the code of this repository was useful for your research, please cite this [repository](https://www.openreview.net/forum?id=rJ6iJmWCW&noteId=rJ6iJmWCW)
+If the code of this repository was useful for your research, please cite this repository.
 
 The code for this was based on code presented by [SEGAN](https://github.com/santi-pdp/segan)
 ### Contact
