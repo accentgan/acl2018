@@ -1,4 +1,4 @@
-## AccentGAN: Policy Driven Generative Adversarial Networks for Speech Generation
+## AccentGAN: Generating Accented Speech using GANs
 
 ### Introduction
 
