@@ -1,5 +1,7 @@
 ## AccentGAN: Generating Accented Speech using GANs
 
+Samples can be listened to [here](http://accentgan.s3-website.ap-south-1.amazonaws.com/)
+
 ### Introduction
 
 This is the repository of the AccentGAN project. 
